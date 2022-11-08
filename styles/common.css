@@ -7,12 +7,22 @@
   --logo-black-color: #000000;
   --logo-light-color: #ffffff;
 
-  --primary-background-color: #ffffff;
+  --primary-background-color: #e5e5e5;
   --secondary-background-color: #f5f4fa;
 
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-text-color: #2196f3;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -45,7 +55,8 @@ ul {
   color: var(--accent-text-color);
 }
 
-.navigatio-list-link {
+.navigatio-list-link,
+.auth-list-link {
   color: var(--secondary-text-color);
 
   font-style: normal;
@@ -64,12 +75,6 @@ ul {
 
 .auth-list-link {
   color: var(--primary-text-color);
-
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 .auth-list-link:hover,
 .auth-list-link:focus {
