@@ -15,54 +15,59 @@
   </head>
   <body>
     <!-- Section HEADER -->
-    <header>
-      <nav class="navigation">
-        <a class="logo link" href="./index.html" lang="en"
-          ><span>Web</span> Studio</a
-        >
-        <ul class="navigation-list">
-          <li class="navigation-list-item">
-            <a class="navigatio-list-link link" href="./index.html">Студия</a>
-          </li>
-          <li class="navigation-list-item">
-            <a class="navigatio-list-link link link-aktive" href="./portfolio.html"
-              >Портфолио</a
+    <header class="header">
+      <div class="container">
+        <nav class="navigation ">
+          <a class="logo link" href="./index.html" lang="en"
+            ><span>Web</span> Studio</a
+          >
+          <ul class="navigation-list list">
+            <li class="navigation-list-item">
+              <a class="navigatio-list-link link" href="./index.html">Студия</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigatio-list-link link link-aktive" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigatio-list-link link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="auth-list list">
+          <li class="auth-list-item">
+            <a class="auth-list-link link" href="mailto:info@example.com"
+              >info@example.com</a
             >
           </li>
-          <li class="navigation-list-item">
-            <a class="navigatio-list-link link" href="#contacts">Контакты</a>
+          <li class="auth-list-item">
+            <a class="auth-list-link link" href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="auth-list">
-        <li class="auth-list-item">
-          <a class="auth-list-link link" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-        </li>
-        <li class="auth-list-item">
-          <a class="auth-list-link link" href="tel:+380991111111"
-            >+38 099 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- Section MAIN -->
     <main>
       <h1 hidden>Портфолио</h1>
       <!-- Section FILTER -->
-      <section>
-        <h2 hidden>Фильтр</h3>
-        <button class="button primary" type="button">Все</button>
-        <button class="button secondary" type="button">Веб-сайты</button>
-        <button class="button secondary" type="button">Приложения</button>
-        <button class="button secondary" type="button">Дизайн</button>
-        <button class="button secondary" type="button">Маркетинг</button>
+      <section class="filter">
+        <div class="container">
+          <h2 hidden>Фильтр</h3>
+            <button class="button primary" type="button">Все</button>
+            <button class="button secondary" type="button">Веб-сайты</button>
+            <button class="button secondary" type="button">Приложения</button>
+            <button class="button secondary" type="button">Дизайн</button>
+            <button class="button secondary" type="button">Маркетинг</button>
+        </div>
       </section>
       <!-- Section WORK EXAMPLES -->
       <section>
-        <h2 hidden>Примеры работ</h2>
-        <ul class="work-list">
+        <div class="container">
+          <h2 hidden>Примеры работ</h2>
+        <ul class="work-list list">
           <li class="work-list-item">
             <img class="work-list-img"
               src="./img/portfolio/img-01.jpg"
@@ -154,11 +159,13 @@
             <p class="work-list-description">Приложение</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!-- Section FOOTER -->
     <footer id="contacts" class="footer">
-      <a class="logo link" href="./index.html" lang="en"><span>Web</span> Studio</a>
+      <div class="container">
+        <a class="logo link" href="./index.html" lang="en"><span>Web</span> Studio</a>
       <address>
         <a
           class="contacts-address link"
@@ -174,7 +181,7 @@
       </address>
       <div>
         <b class="footer-title">присоединяйтесь</b>
-        <ul>
+        <ul class="list">
           <li>
             <a class="link"
               href="https://www.instagram.com"
@@ -208,6 +215,7 @@
             >
           </li>
         </ul>
+      </div>
       </div>
     </footer>
   </body>

@@ -40,6 +40,20 @@ ul {
   text-decoration: none; /* Removing the underline form a link */
 }
 
+.list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
+}
+
 /* Section HEADER */
 .logo {
   color: var(--logo-black-color);
@@ -82,34 +96,60 @@ ul {
 }
 
 .button.primary {
-  background-color: var(--accent-text-color);
+  background-color: var(--accent-color);
   color: #ffffff;
 
   font-family: inherit;
+
+  border: 1px solid transparent;
 }
 
 .button.secondary {
   background-color: #ffffff;
-  color: var(--accent-text-color);
+  color: var(--accent-color);
 
   font-family: inherit;
+
+  border: 1px solid transparent;
 }
 
 /* Section FOOTER */
 .footer {
+  padding-top: 60px;
+
   background-color: #2f303a;
 }
 
 .footer .logo {
+  margin-bottom: 20px;
+
+  display: inline-block;
+
   color: var(--logo-light-color);
 }
 
 .contacts-address {
+  margin-bottom: 9px;
+
+  display: inline-block;
+
   color: #ffffff;
 }
 .contacts-address:hover,
 .contacts-address:focus {
   color: var(--accent-text-color);
+}
+
+.contacts-mail {
+  margin-bottom: 9px;
+
+  display: inline-block;
+}
+
+.contacts-tel {
+  margin-bottom: 60px;
+
+  display: inline-block;
 }
 
 .contacts-mail,
