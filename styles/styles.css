@@ -7,7 +7,7 @@
   --logo-black-color: #000000;
   --logo-light-color: #ffffff;
 
-  --primary-background-color: #e5e5e5;
+  --primary-background-color: #fff;
   --secondary-background-color: #f5f4fa;
 
   --primary-text-color: #757575;
@@ -30,6 +30,19 @@ body {
   color: var(--secondary-text-color);
 
   font-family: var(--main-font);
+}
+
+.title {
+  /*From section: WHAT WE DO, OUR TEAM, REGULAR CUSTOMERS */
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .link {
@@ -110,6 +123,86 @@ body {
 
   border: 1px solid transparent;
 }
+/* Section HERO */
+.hero {
+  padding-top: 200px;
+
+  background-color: black;
+
+  text-align: center;
+}
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  color: #ffffff;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero .button {
+  min-width: 200px;
+  height: 50px;
+
+  border-radius: 4px;
+  padding: 10px 32px;
+
+  text-align: center;
+
+  margin-bottom: 200px;
+}
+
+/* Section WHAT WE DO */
+.we-do-list-item .image {
+  margin-bottom: 188px;
+}
+
+/* Section OUR TEAM */
+.team {
+  background-color: var(--secondary-background-color);
+}
+
+.team-list-item {
+  margin-bottom: 94px;
+}
+
+.team-list-item .image {
+  margin-bottom: 30px;
+}
+
+.team-list-item .name {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-list-item .position {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  color: var(--primary-text-color);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Section REGULAR CUSTOMERS */
 
 /* Section FOOTER */
 .footer {
@@ -170,4 +263,56 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+/* Page PORTFOLIO.HTML */
+
+/* Section FILTER */
+.filter {
+  padding-top: 94px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.filter .button {
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+
+.filter .button.secondary {
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+}
+
+/* Section WORK EXAMPLES */
+.work-list-item {
+  margin-bottom: 94px;
+}
+
+.work-list-img {
+  margin-bottom: 20px;
+}
+.work-list-title {
+  margin-top: 0;
+  margin-bottom: 4px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-text-color);
+}
+
+.work-list-description {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
 }
