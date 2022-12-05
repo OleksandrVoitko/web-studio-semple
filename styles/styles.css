@@ -430,6 +430,51 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+.footer-list {
+  display: flex;
+}
+
+.footer-list-item-link {
+  display: block;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-list-item-link:hover {
+  background-color: #2196f3;
+}
+.footer-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.instagram {
+  background-image: url(../img/footer/instagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.twitter {
+  background-image: url(../img/footer/twitter.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.facebook {
+  background-image: url(../img/footer/facebook.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.linkedin {
+  background-image: url(../img/footer/linkedin.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /* Page PORTFOLIO.HTML */
 
 /* Section FILTER */
