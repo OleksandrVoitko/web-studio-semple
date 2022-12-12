@@ -397,7 +397,7 @@ p {
   fill: #afb1b8;
 }
 .social-list-item-link:hover,
-.social-list-item-link:focus {
+.social-list-item-link:focus .link-icon {
   background-color: var(--accent-color);
   border-radius: 50%;
   fill: #ffffff;
